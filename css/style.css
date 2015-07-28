@@ -1,5 +1,7 @@
+/*index.html Styling*/
+
 .nav {
-	padding: 8px;
+	padding: 15px;
 }
 
 .nav li {
@@ -21,7 +23,7 @@
 
 .jumbotron {
 	background-color: turquoise;
-	/*border-top: 1px dotted black;*/
+	border-top: 1px dotted black;
 }
 
 .jumbotron h1 {
@@ -37,6 +39,18 @@ body {
 	font-family: 'Muli', sans-serif;
 }
 
+p {
+	text-align: left;
+	font-size: 14px;
+}
+
+/*Index.html Styling*/
+
+
+.main h2 {
+	text-align: center;
+}
+
 .icon-airplane:before {
     content: "\e600";
 }
@@ -49,3 +63,39 @@ body {
 	padding-top: 20px;
 	border: none;
 }
+
+/*Resume.html Styling*/
+
+.resume h2 {
+	font-weight: 800;
+	text-align: left;
+}
+
+.resume h3 {
+	font-family: 'Pacifico', cursive;
+}
+
+.resume h4 {
+	font-weight: 700;
+}
+
+.name h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 55px;
+	text-align: center;
+}
+
+.contact {
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.job {
+	padding-bottom: 40px;
+}
+
+.education {
+	padding-bottom: 40px;
+}
+
