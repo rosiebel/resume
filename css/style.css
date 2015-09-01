@@ -17,22 +17,26 @@
 }
 
 .nav a:hover {
-	color: turquoise;
+	color: #00FFEF;
 	text-decoration: none;
 }
 
 .jumbotron {
-	background-color: turquoise;
-	border-top: 1px dotted black;
+	/*background-color: turquoise;*/
+	background-image: url('../img/halfdome.jpg');
+	/*border-top: 1px dotted black;*/
+	background-size: cover;
 }
 
 .jumbotron h1 {
 	font-family: 'Pacifico', cursive;
+	color: black;
 }
 
 .jumbotron p {
 	font-family: 'Muli', sans-serif;
 	font-size: 20px;
+	color: black;
 }
 
 body {
@@ -68,7 +72,7 @@ p {
 
 .resume h2 {
 	font-weight: 800;
-	text-align: left;
+	text-align: left;x
 }
 
 .resume h3 {
@@ -91,11 +95,30 @@ p {
 	text-align: center;
 }
 
-.job {
-	padding-bottom: 40px;
+.resume-content {
+	margin-left: 50px;
 }
 
+.job {
+	padding-bottom: 30px;
+	margin-left: -15px;
+}
+
+.job li {
+	padding-bottom: 3px;
+}
+
+.title {
+	font-weight: 900;
+	/*font-family: */
+}
+
+
 .education {
-	padding-bottom: 40px;
+	padding-bottom: 30px;
+}
+
+.skills {
+	padding-bottom: 30px;
 }
 
